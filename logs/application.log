@@ -1,0 +1,701 @@
+2025-11-19 16:37:24.221 [restartedMain] INFO  c.k.SpringStarter251114Application - Starting SpringStarter251114Application using Java 17.0.16 with PID 6788 (D:\sts-4.32.2.RELEASE\SpringStarter-251114\bin\main started by ONOP in D:\sts-4.32.2.RELEASE\SpringStarter-251114)
+2025-11-19 16:37:24.227 [restartedMain] INFO  c.k.SpringStarter251114Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-19 16:37:24.286 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in D:\sts-4.32.2.RELEASE\sts-bundle\gradle-repository\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc11\23.7.0.25.01\665f52abef9122ce003b5cfc1d9d44f7302e2cfe\ojdbc11-23.7.0.25.01.jar referenced one or more files that do not exist: file:/D:/sts-4.32.2.RELEASE/sts-bundle/gradle-repository/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc11/23.7.0.25.01/665f52abef9122ce003b5cfc1d9d44f7302e2cfe/oraclepki.jar
+2025-11-19 16:37:24.289 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-19 16:37:24.289 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-19 16:37:25.372 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-19 16:37:25.383 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-19 16:37:25.384 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-19 16:37:25.385 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-19 16:37:25.562 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-19 16:37:25.570 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-19 16:37:25.571 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1281 ms
+2025-11-19 16:37:26.343 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-19 16:37:26.360 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-19 16:37:26.383 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-19 16:37:26.395 [restartedMain] INFO  c.k.SpringStarter251114Application - Started SpringStarter251114Application in 2.667 seconds (process running for 3.314)
+2025-11-19 16:37:30.025 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-19 16:37:30.025 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-19 16:37:30.027 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-11-19 16:37:30.029 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:30.029 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:30.029 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - false
+2025-11-19 16:37:30.042 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:30.042 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:30.964 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:30.964 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:33.657 [http-nio-8080-exec-4] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:33.657 [http-nio-8080-exec-4] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:33.683 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-19 16:37:34.180 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1652f3cd
+2025-11-19 16:37:34.180 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-19 16:37:34.339 [http-nio-8080-exec-4] INFO  p6spy - #1763537854338  | 96ms | statement | 0 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT  CASE
+		            WHEN EXISTS(
+		                    SELECT 1
+		                        FROM student
+		                        WHERE id='pooh94'
+		                            AND password = STANDARD_HASH('pooh94','SHA512') 
+		                    )
+		                THEN 1
+		                ELSE 0
+		        END AS allowed
+		        ,CASE
+		            WHEN EXISTS(
+		                    SELECT name
+		                        FROM student
+		                        WHERE id='pooh94'
+		                            AND password = STANDARD_HASH('pooh94','SHA512') 
+		                    )
+		                THEN (
+		                          SELECT name
+		                            FROM student
+		                            WHERE id='pooh94'
+		                                AND password = STANDARD_HASH('pooh94','SHA512') 
+		                        )
+		                ELSE NULL
+		        END AS username
+		    FROM dual
+2025-11-19 16:37:34.368 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:34.368 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:34.369 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:37:34.369 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:37:34.376 [http-nio-8080-exec-5] INFO  com.kdt11.controller.HomeController - Welcome home! The client locale is ko_KR.
+2025-11-19 16:37:34.377 [http-nio-8080-exec-5] INFO  com.kdt11.controller.HomeController - SecurityVaildateVO(isValidated=true, url=home)
+2025-11-19 16:37:34.626 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[localhost].[/].[jsp] - Servlet.service() for servlet [jsp] threw exception
+jakarta.servlet.ServletException: JSP file [&#47;WEB-INF&#47;views&#47;menu&#47;BlueMenu.jsp] not found
+	at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:340)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:301)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:610)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:489)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:437)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(ImportSupport.java:309)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(ImportSupport.java:166)
+	at org.apache.jsp.WEB_002dINF.views.home_jsp._jspx_meth_c_005fimport_005f0(home_jsp.java:246)
+	at org.apache.jsp.WEB_002dINF.views.home_jsp._jspService(home_jsp.java:155)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:62)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:428)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:350)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:301)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:610)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:392)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:321)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:266)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1438)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at com.kdt11.filter.LoginChainFilter.doFilter(LoginChainFilter.java:106)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-19 16:37:34.631 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[localhost].[/].[jsp] - Servlet.service() for servlet [jsp] threw exception
+jakarta.servlet.ServletException: JSP file [&#47;WEB-INF&#47;views&#47;menu&#47;BlueMenu.jsp] not found
+	at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:340)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:301)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:610)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:489)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:437)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(ImportSupport.java:309)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(ImportSupport.java:166)
+	at org.apache.jsp.WEB_002dINF.views.home_jsp._jspx_meth_c_005fimport_005f0(home_jsp.java:246)
+	at org.apache.jsp.WEB_002dINF.views.home_jsp._jspService(home_jsp.java:155)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:62)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:428)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:350)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:301)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:610)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:392)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:321)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:266)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1438)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at com.kdt11.filter.LoginChainFilter.doFilter(LoginChainFilter.java:106)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-19 16:37:34.632 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [jakarta.servlet.ServletException: jakarta.servlet.jsp.JspException: jakarta.servlet.ServletException: JSP file [&#47;WEB-INF&#47;views&#47;menu&#47;BlueMenu.jsp] not found] with root cause
+jakarta.servlet.ServletException: JSP file [&#47;WEB-INF&#47;views&#47;menu&#47;BlueMenu.jsp] not found
+	at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:340)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:301)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:610)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:489)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:437)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(ImportSupport.java:309)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(ImportSupport.java:166)
+	at org.apache.jsp.WEB_002dINF.views.home_jsp._jspx_meth_c_005fimport_005f0(home_jsp.java:246)
+	at org.apache.jsp.WEB_002dINF.views.home_jsp._jspService(home_jsp.java:155)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:62)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:428)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:350)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:301)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:610)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:392)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:321)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:266)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1438)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at com.kdt11.filter.LoginChainFilter.doFilter(LoginChainFilter.java:106)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-19 16:37:48.272 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:48.272 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:48.272 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:37:48.272 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:37:48.273 [http-nio-8080-exec-6] INFO  com.kdt11.controller.HomeController - Welcome home! The client locale is ko_KR.
+2025-11-19 16:37:48.273 [http-nio-8080-exec-6] INFO  com.kdt11.controller.HomeController - SecurityVaildateVO(isValidated=true, url=home)
+2025-11-19 16:37:49.894 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:49.895 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:49.896 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:37:49.896 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:37:49.905 [http-nio-8080-exec-7] INFO  p6spy - #1763537869904  | 4ms | statement | 1 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT empno
+				, ename		-- 직원이름
+				, job		
+				, mgr		
+				, hiredate	
+				, sal		
+				, comm
+				, deptno
+	    FROM emp
+2025-11-19 16:37:50.140 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:50.140 [http-nio-8080-exec-9] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:50.140 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:50.140 [http-nio-8080-exec-9] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:53.851 [http-nio-8080-exec-10] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:53.851 [http-nio-8080-exec-10] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:53.851 [http-nio-8080-exec-10] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:37:53.851 [http-nio-8080-exec-10] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:37:53.852 [http-nio-8080-exec-10] INFO  com.kdt11.controller.HomeController - Welcome home! The client locale is ko_KR.
+2025-11-19 16:37:53.852 [http-nio-8080-exec-10] INFO  com.kdt11.controller.HomeController - SecurityVaildateVO(isValidated=true, url=home)
+2025-11-19 16:37:54.563 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:54.565 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:54.565 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:37:54.565 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:37:54.580 [http-nio-8080-exec-1] INFO  c.kdt11.controller.StudentController - cri - Criteria(arrayList=null, pageNum=1, amount=10)
+2025-11-19 16:37:54.589 [http-nio-8080-exec-1] INFO  p6spy - #1763537874589  | 8ms | statement | 2 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT /*INDEX_DESC(STUDENT IDX_STUDENT_STUDNO_ASC) FIRST_ROW(10)*/
+         studno
+      , name
+      , grade
+      , (select dname from department where deptno = s.deptno1) AS dname1
+      , (select dname from department where deptno = s.deptno2) AS dname2
+      , (select name from professor where profno = s.profno) AS pname
+      from student s
+        ORDER BY studno DESC
+        OFFSET((1-1)*10) ROWS 
+        FETCH NEXT 10 ROWS ONLY
+2025-11-19 16:37:54.589 [http-nio-8080-exec-1] INFO  p6spy - #1763537874589  | 0ms | statement | 3 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT count(*) FROM student
+2025-11-19 16:37:54.804 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:54.804 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:54.809 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:54.809 [http-nio-8080-exec-4] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:54.811 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:54.811 [http-nio-8080-exec-4] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:54.811 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:54.811 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:56.142 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:56.142 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:56.142 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:37:56.142 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:37:56.144 [http-nio-8080-exec-6] INFO  p6spy - #1763537876144  | 0ms | statement | 4 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT empno
+				, ename		-- 직원이름
+				, job		
+				, mgr		
+				, hiredate	
+				, sal		
+				, comm
+				, deptno
+	    FROM emp
+2025-11-19 16:37:56.177 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:56.177 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:56.183 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:56.183 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:56.739 [http-nio-8080-exec-9] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:56.740 [http-nio-8080-exec-9] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:56.740 [http-nio-8080-exec-9] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:37:56.740 [http-nio-8080-exec-9] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:37:56.743 [http-nio-8080-exec-9] INFO  p6spy - #1763537876743  | 1ms | statement | 5 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT empno
+				, ename		-- 직원이름
+				, job		
+				, mgr		
+				, hiredate	
+				, sal		
+				, comm
+				, deptno
+	    FROM emp 
+	    WHERE empno = 7499
+2025-11-19 16:37:56.892 [http-nio-8080-exec-10] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:56.892 [http-nio-8080-exec-10] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:56.899 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:56.897 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:56.899 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:56.899 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:58.685 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:58.685 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:58.685 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:37:58.685 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:37:58.686 [http-nio-8080-exec-5] INFO  c.kdt11.controller.StudentController - cri - Criteria(arrayList=null, pageNum=1, amount=10)
+2025-11-19 16:37:58.688 [http-nio-8080-exec-5] INFO  p6spy - #1763537878688  | 1ms | statement | 6 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT /*INDEX_DESC(STUDENT IDX_STUDENT_STUDNO_ASC) FIRST_ROW(10)*/
+         studno
+      , name
+      , grade
+      , (select dname from department where deptno = s.deptno1) AS dname1
+      , (select dname from department where deptno = s.deptno2) AS dname2
+      , (select name from professor where profno = s.profno) AS pname
+      from student s
+        ORDER BY studno DESC
+        OFFSET((1-1)*10) ROWS 
+        FETCH NEXT 10 ROWS ONLY
+2025-11-19 16:37:58.694 [http-nio-8080-exec-5] INFO  p6spy - #1763537878694  | 0ms | statement | 7 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT count(*) FROM student
+2025-11-19 16:37:58.721 [http-nio-8080-exec-4] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:58.721 [http-nio-8080-exec-4] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:58.724 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:58.724 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:58.724 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:58.724 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:37:58.725 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:37:58.725 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:00.780 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:00.780 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:00.780 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:38:00.780 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:38:00.786 [http-nio-8080-exec-8] INFO  p6spy - #1763537880784  | 1ms | statement | 8 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT studno
+            ,name
+            ,id
+            ,grade
+            ,replace(concat(concat(substr(jumin,1,6),'-'),substr(jumin,7)),substr(jumin,8),'******') AS jumin -- 앞자리만 보여주도록
+            ,birthday
+            ,tel
+            ,height
+            ,weight
+            ,deptno1
+            ,deptno2
+            ,profno
+            ,(select dname from department  where deptno = s. deptno1) AS dname1
+            ,(select dname from department  where deptno = s. deptno2) AS dname2
+            ,(select name from professor where profno = s. profno) AS pname
+            FROM STUDENT s
+            WHERE studno= 9715
+2025-11-19 16:38:00.790 [http-nio-8080-exec-8] INFO  p6spy - #1763537880790  | 1ms | statement | 9 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT deptno
+				,dname
+			FROM department
+2025-11-19 16:38:00.794 [http-nio-8080-exec-8] INFO  p6spy - #1763537880794  | 0ms | statement | 10 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT profno
+            , name
+            , deptno 
+            FROM professor
+2025-11-19 16:38:00.800 [http-nio-8080-exec-8] INFO  p6spy - #1763537880799  | 0ms | statement | 11 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT count(*) FROM student
+2025-11-19 16:38:01.014 [http-nio-8080-exec-9] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:01.014 [http-nio-8080-exec-9] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:01.022 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:01.022 [http-nio-8080-exec-10] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:01.022 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:01.022 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:01.022 [http-nio-8080-exec-10] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:01.022 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:02.643 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:02.644 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:02.644 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:38:02.644 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:38:02.645 [http-nio-8080-exec-5] INFO  c.kdt11.controller.StudentController - cri - Criteria(arrayList=null, pageNum=1, amount=10)
+2025-11-19 16:38:02.648 [http-nio-8080-exec-5] INFO  p6spy - #1763537882648  | 1ms | statement | 12 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT /*INDEX_DESC(STUDENT IDX_STUDENT_STUDNO_ASC) FIRST_ROW(10)*/
+         studno
+      , name
+      , grade
+      , (select dname from department where deptno = s.deptno1) AS dname1
+      , (select dname from department where deptno = s.deptno2) AS dname2
+      , (select name from professor where profno = s.profno) AS pname
+      from student s
+        ORDER BY studno DESC
+        OFFSET((1-1)*10) ROWS 
+        FETCH NEXT 10 ROWS ONLY
+2025-11-19 16:38:02.651 [http-nio-8080-exec-5] INFO  p6spy - #1763537882651  | 0ms | statement | 13 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT count(*) FROM student
+2025-11-19 16:38:02.677 [http-nio-8080-exec-4] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:02.677 [http-nio-8080-exec-4] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:02.683 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:02.683 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:02.683 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:02.683 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:02.683 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:02.683 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:04.980 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:04.980 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:04.980 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:38:04.980 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:38:04.984 [http-nio-8080-exec-8] INFO  p6spy - #1763537884984  | 1ms | statement | 14 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT profno
+            ,name
+            ,position
+            ,(select dname from department where deptno=p.deptno) as dname
+        FROM professor p
+2025-11-19 16:38:04.994 [http-nio-8080-exec-8] INFO  c.k.controller.ProfessorController - [ProfessorVO(profno=5001, name=김설희, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=null), ProfessorVO(profno=5002, name=김사랑, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=null), ProfessorVO(profno=6001, name=김우섭, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=컴퓨터공학과), ProfessorVO(profno=1001, name=조인형, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=컴퓨터공학과), ProfessorVO(profno=1002, name=박승곤, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=컴퓨터공학과), ProfessorVO(profno=1003, name=송도권, id=null, position=전임강사, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=컴퓨터공학과), ProfessorVO(profno=2001, name=양선희, id=null, position=전임강사, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=멀티미디어공학과), ProfessorVO(profno=2002, name=김영조, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=멀티미디어공학과), ProfessorVO(profno=2003, name=주승재, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=멀티미디어공학과), ProfessorVO(profno=3001, name=김도형, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=소프트웨어공학과), ProfessorVO(profno=3002, name=나한열, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=소프트웨어공학과), ProfessorVO(profno=3003, name=김현정, id=null, position=전임강사, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=소프트웨어공학과), ProfessorVO(profno=4001, name=심슨, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=전자공학과), ProfessorVO(profno=4002, name=최슬기, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=전자공학과), ProfessorVO(profno=4003, name=박원범, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=기계공학과), ProfessorVO(profno=4004, name=차범철, id=null, position=전임강사, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=기계공학과), ProfessorVO(profno=4005, name=바비, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=화학공학과), ProfessorVO(profno=4006, name=전민, id=null, position=전임강사, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=문헌정보학과), ProfessorVO(profno=4007, name=허은, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=문헌정보학과)]
+2025-11-19 16:38:05.177 [http-nio-8080-exec-9] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:05.177 [http-nio-8080-exec-9] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:05.179 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:05.179 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:05.180 [http-nio-8080-exec-10] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:05.180 [http-nio-8080-exec-10] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:06.248 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:06.251 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:06.251 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:38:06.251 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:38:06.254 [http-nio-8080-exec-2] INFO  p6spy - #1763537886254  | 1ms | statement | 15 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT profno
+	            ,name
+	            ,id
+	            ,position
+	            ,pay
+	            ,hiredate
+	            ,bonus
+	            ,deptno
+	            ,email
+	            ,hpage
+	            ,(select dname from department where deptno=p.deptno) as dname
+	    FROM professor p
+	    WHERE profno = 6001
+2025-11-19 16:38:06.254 [http-nio-8080-exec-2] INFO  c.k.controller.ProfessorController - ProfessorVO(profno=6001, name=김우섭, id=notangel2434, position=정교수, pay=500, hiredate=Thu Oct 28 00:00:00 KST 1999, bonus=40, deptno=101, email=wings@naver.com, hpage=6001, dname=컴퓨터공학과)
+2025-11-19 16:38:06.420 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:06.420 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:06.427 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:06.427 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:06.427 [http-nio-8080-exec-4] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:06.427 [http-nio-8080-exec-4] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:06.428 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:06.428 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:07.701 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:07.701 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:07.701 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:38:07.701 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:38:07.703 [http-nio-8080-exec-3] INFO  p6spy - #1763537887703  | 1ms | statement | 16 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT profno
+            ,name
+            ,position
+            ,(select dname from department where deptno=p.deptno) as dname
+        FROM professor p
+2025-11-19 16:38:07.704 [http-nio-8080-exec-3] INFO  c.k.controller.ProfessorController - [ProfessorVO(profno=5001, name=김설희, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=null), ProfessorVO(profno=5002, name=김사랑, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=null), ProfessorVO(profno=6001, name=김우섭, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=컴퓨터공학과), ProfessorVO(profno=1001, name=조인형, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=컴퓨터공학과), ProfessorVO(profno=1002, name=박승곤, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=컴퓨터공학과), ProfessorVO(profno=1003, name=송도권, id=null, position=전임강사, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=컴퓨터공학과), ProfessorVO(profno=2001, name=양선희, id=null, position=전임강사, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=멀티미디어공학과), ProfessorVO(profno=2002, name=김영조, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=멀티미디어공학과), ProfessorVO(profno=2003, name=주승재, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=멀티미디어공학과), ProfessorVO(profno=3001, name=김도형, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=소프트웨어공학과), ProfessorVO(profno=3002, name=나한열, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=소프트웨어공학과), ProfessorVO(profno=3003, name=김현정, id=null, position=전임강사, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=소프트웨어공학과), ProfessorVO(profno=4001, name=심슨, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=전자공학과), ProfessorVO(profno=4002, name=최슬기, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=전자공학과), ProfessorVO(profno=4003, name=박원범, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=기계공학과), ProfessorVO(profno=4004, name=차범철, id=null, position=전임강사, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=기계공학과), ProfessorVO(profno=4005, name=바비, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=화학공학과), ProfessorVO(profno=4006, name=전민, id=null, position=전임강사, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=문헌정보학과), ProfessorVO(profno=4007, name=허은, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=문헌정보학과)]
+2025-11-19 16:38:07.727 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:07.727 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:07.730 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:07.730 [http-nio-8080-exec-9] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:07.730 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:07.730 [http-nio-8080-exec-9] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:10.517 [http-nio-8080-exec-10] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:10.517 [http-nio-8080-exec-10] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:10.517 [http-nio-8080-exec-10] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:38:10.517 [http-nio-8080-exec-10] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:38:10.518 [http-nio-8080-exec-10] INFO  c.kdt11.controller.StudentController - cri - Criteria(arrayList=null, pageNum=1, amount=10)
+2025-11-19 16:38:10.521 [http-nio-8080-exec-10] INFO  p6spy - #1763537890521  | 1ms | statement | 17 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT /*INDEX_DESC(STUDENT IDX_STUDENT_STUDNO_ASC) FIRST_ROW(10)*/
+         studno
+      , name
+      , grade
+      , (select dname from department where deptno = s.deptno1) AS dname1
+      , (select dname from department where deptno = s.deptno2) AS dname2
+      , (select name from professor where profno = s.profno) AS pname
+      from student s
+        ORDER BY studno DESC
+        OFFSET((1-1)*10) ROWS 
+        FETCH NEXT 10 ROWS ONLY
+2025-11-19 16:38:10.525 [http-nio-8080-exec-10] INFO  p6spy - #1763537890525  | 0ms | statement | 18 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT count(*) FROM student
+2025-11-19 16:38:10.555 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:10.555 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:10.562 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:10.562 [http-nio-8080-exec-4] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:10.562 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:10.562 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:10.562 [http-nio-8080-exec-4] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:10.562 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:12.740 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:12.740 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:12.740 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:38:12.740 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:38:12.904 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:12.904 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:12.906 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:12.906 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:14.392 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:14.393 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:14.393 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:38:14.393 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:38:14.394 [http-nio-8080-exec-1] INFO  c.kdt11.controller.UploadController - 여기->[Ljava.lang.String;@7507fb4c
+2025-11-19 16:38:14.396 [http-nio-8080-exec-1] INFO  c.kdt11.controller.UploadController - 여기*********fileNames->[dog-3c208c13-e3c1-419b-a902-ee72c1b32772.jpg, 고양이-27c51736-05a0-4b40-920f-b862e62d9280.jpg, 고양이-99d830cc-1874-49f0-a325-033046d5707b.jpg, 눈사람-1ee0055f-28e6-4226-b575-bf02c7705c1b.jpg, 눈사람-c8f06a27-4230-4c28-9b2f-d3c80aa2bb4e.jpg]
+2025-11-19 16:38:14.396 [http-nio-8080-exec-1] INFO  c.kdt11.controller.UploadController - 여기********fileTextNames->[hi-c72e1409-f8a4-4d90-9d8f-b79482ba72ad.txt, test.txt]
+2025-11-19 16:38:14.723 [http-nio-8080-exec-9] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:14.724 [http-nio-8080-exec-9] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:14.733 [http-nio-8080-exec-10] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:14.733 [http-nio-8080-exec-10] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:14.733 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:14.734 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:14.734 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:38:14.734 [http-nio-8080-exec-2] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:38:14.734 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:14.735 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:14.735 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:38:14.735 [http-nio-8080-exec-7] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:38:14.736 [http-nio-8080-exec-7] INFO  c.k.controller.UploadRestController - Full path: D:\upload\고양이-27c51736-05a0-4b40-920f-b862e62d9280.jpg
+2025-11-19 16:38:14.740 [http-nio-8080-exec-7] INFO  c.k.controller.UploadRestController - Exists: true
+2025-11-19 16:38:14.744 [http-nio-8080-exec-2] INFO  c.k.controller.UploadRestController - Full path: D:\upload\dog-3c208c13-e3c1-419b-a902-ee72c1b32772.jpg
+2025-11-19 16:38:14.744 [http-nio-8080-exec-2] INFO  c.k.controller.UploadRestController - Exists: true
+2025-11-19 16:38:14.753 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:14.754 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:14.754 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:38:14.754 [http-nio-8080-exec-5] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:38:14.754 [http-nio-8080-exec-5] INFO  c.k.controller.UploadRestController - Full path: D:\upload\고양이-99d830cc-1874-49f0-a325-033046d5707b.jpg
+2025-11-19 16:38:14.755 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:14.755 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:14.755 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:38:14.755 [http-nio-8080-exec-6] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:38:14.755 [http-nio-8080-exec-4] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:14.755 [http-nio-8080-exec-4] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:14.756 [http-nio-8080-exec-6] INFO  c.k.controller.UploadRestController - Full path: D:\upload\눈사람-c8f06a27-4230-4c28-9b2f-d3c80aa2bb4e.jpg
+2025-11-19 16:38:14.756 [http-nio-8080-exec-4] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:38:14.756 [http-nio-8080-exec-4] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:38:14.760 [http-nio-8080-exec-5] INFO  c.k.controller.UploadRestController - Exists: true
+2025-11-19 16:38:14.756 [http-nio-8080-exec-6] INFO  c.k.controller.UploadRestController - Exists: true
+2025-11-19 16:38:14.757 [http-nio-8080-exec-4] INFO  c.k.controller.UploadRestController - Full path: D:\upload\눈사람-1ee0055f-28e6-4226-b575-bf02c7705c1b.jpg
+2025-11-19 16:38:14.772 [http-nio-8080-exec-4] INFO  c.k.controller.UploadRestController - Exists: true
+2025-11-19 16:38:16.124 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:16.124 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:16.124 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자? - true
+2025-11-19 16:38:16.124 [http-nio-8080-exec-3] INFO  com.kdt11.filter.LoginChainFilter - 인증된 사용자 chain.doFilter
+2025-11-19 16:38:16.126 [http-nio-8080-exec-3] INFO  p6spy - #1763537896126  | 0ms | statement | 19 | url jdbc:oracle:thin:@localhost:1521:orcl | 
+SELECT profno
+            ,name
+            ,position
+            ,(select dname from department where deptno=p.deptno) as dname
+        FROM professor p
+2025-11-19 16:38:16.129 [http-nio-8080-exec-3] INFO  c.k.controller.ProfessorController - [ProfessorVO(profno=5001, name=김설희, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=null), ProfessorVO(profno=5002, name=김사랑, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=null), ProfessorVO(profno=6001, name=김우섭, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=컴퓨터공학과), ProfessorVO(profno=1001, name=조인형, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=컴퓨터공학과), ProfessorVO(profno=1002, name=박승곤, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=컴퓨터공학과), ProfessorVO(profno=1003, name=송도권, id=null, position=전임강사, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=컴퓨터공학과), ProfessorVO(profno=2001, name=양선희, id=null, position=전임강사, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=멀티미디어공학과), ProfessorVO(profno=2002, name=김영조, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=멀티미디어공학과), ProfessorVO(profno=2003, name=주승재, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=멀티미디어공학과), ProfessorVO(profno=3001, name=김도형, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=소프트웨어공학과), ProfessorVO(profno=3002, name=나한열, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=소프트웨어공학과), ProfessorVO(profno=3003, name=김현정, id=null, position=전임강사, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=소프트웨어공학과), ProfessorVO(profno=4001, name=심슨, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=전자공학과), ProfessorVO(profno=4002, name=최슬기, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=전자공학과), ProfessorVO(profno=4003, name=박원범, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=기계공학과), ProfessorVO(profno=4004, name=차범철, id=null, position=전임강사, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=기계공학과), ProfessorVO(profno=4005, name=바비, id=null, position=정교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=화학공학과), ProfessorVO(profno=4006, name=전민, id=null, position=전임강사, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=문헌정보학과), ProfessorVO(profno=4007, name=허은, id=null, position=조교수, pay=0, hiredate=null, bonus=0, deptno=0, email=null, hpage=null, dname=문헌정보학과)]
+2025-11-19 16:38:16.152 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:16.152 [http-nio-8080-exec-8] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:16.155 [http-nio-8080-exec-9] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:16.155 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - LoginChainFilter.doFilter()
+2025-11-19 16:38:16.155 [http-nio-8080-exec-9] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:16.155 [http-nio-8080-exec-1] INFO  com.kdt11.filter.LoginChainFilter - secAuthService.doFilter()
+2025-11-19 16:38:24.481 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-11-19 16:38:24.484 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-19 16:38:24.485 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-19 16:38:24.684 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-19 16:38:24.685 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-19 16:38:24.690 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-19 16:38:24.695 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
